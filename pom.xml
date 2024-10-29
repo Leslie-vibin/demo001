@@ -10,5 +10,10 @@
     <artifactId>testng</artifactId>
     <version>7.7.1</version>
 </dependency>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.12.0</version>
+</dependency>
 </dependencies>
 </project>
