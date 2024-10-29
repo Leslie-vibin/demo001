@@ -7,24 +7,25 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class TestScript1 {
-
+public WebDriver driver;
+	
     @Test
     public void  test() {
 		// TODO Auto-generated method stub
     	String browser=System.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-		WebDriver driver =new ChromeDriver();
+		 driver =new ChromeDriver();
 			
 		}
 		if(browser.equalsIgnoreCase("edge"))
 		{
-			WebDriver driver=new EdgeDriver();
+			driver=new EdgeDriver();
 			
 		}
 		if(browser.equalsIgnoreCase("firefox"))
 		{
-			WebDriver	driver=new FirefoxDriver();
+			driver=new FirefoxDriver();
 			
 		}
 		//String username=System.getProperty("username");
@@ -34,6 +35,7 @@ public class TestScript1 {
 		//Thank you
 	
     }
+    @Test
     public void  testpollscm() {
 		// TODO Auto-generated method stub
 		
