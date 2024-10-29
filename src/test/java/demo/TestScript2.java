@@ -1,8 +1,10 @@
 package demo;
 
-public class TestScript2 {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class TestScript2 {
+@Test
+	public void test2() {
 		// TODO Auto-generated method stub
 		System.out.println("Bye");
 	}

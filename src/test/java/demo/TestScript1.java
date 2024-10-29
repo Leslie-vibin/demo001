@@ -1,13 +1,16 @@
 package demo;
 
+import org.testng.annotations.Test;
+
 public class TestScript1 {
 
-	public static void main(String[] args) {
+    @Test
+    public void  test() {
 		// TODO Auto-generated method stub
 		
 		//welcome
 		System.out.println("Hello");
 		//Thank you
-	}
-
+	
+    }
 }

@@ -4,4 +4,11 @@
   <artifactId>demoproject_001</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <description>demo on github</description>
+  <dependencies>
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+</dependency>
+</dependencies>
 </project>
