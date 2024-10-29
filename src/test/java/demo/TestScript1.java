@@ -13,4 +13,12 @@ public class TestScript1 {
 		//Thank you
 	
     }
+    public void  testpollscm() {
+		// TODO Auto-generated method stub
+		
+		//welcome
+		System.out.println("pollscm");
+		//Thank you
+	
+    }
 }
